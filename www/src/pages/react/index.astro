@@ -1,0 +1,9 @@
+---
+import { ReactComponent } from "../../components/ReactComponent.tsx";
+
+export const prerender = false;
+---
+
+<div id="app-loading-indicator">Loading...</div>
+
+<ReactComponent client:only="react" />
